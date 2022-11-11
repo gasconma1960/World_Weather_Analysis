@@ -1,7 +1,14 @@
 # World_Weather_Analysis
+Using Python, Jupyter Notebook and API Call from Google Maps API's be able to analyze a travel preferences
+
 ## **Background**
 
   Jack loves the PlanMyTrip app. Beta testers love it too. And, as with any new product, they've recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data.
+  
+## **Purpose** 
+
+  Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with OpenWeatherMap. In addition to the city weather data you gathered in this module, use your API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.I'll employ input statements to retrieve customer weather preferences. Next, I'll use those preferences to identify potential travel destinations and nearby hotels. Finally, I'll show those destinations on a marker layer map with pop-up markers.  
+  
   
 ## Deliverable 1: Retrieve Weather Data
 
