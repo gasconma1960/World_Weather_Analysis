@@ -20,13 +20,17 @@ Using Python, Jupyter Notebook and API Call from Google Maps API's be able to an
   - The Wind speed
   - The Weather description, i.e., cloudy, fog, light rain, clear sky, etc.
   
- ***Screent shot below shows the DataFrame displaying all the information retrive using an API Call***
+ ***Screen shot below shows the DataFrame displaying all the information retrive using an API Call***
 
 ![image](https://user-images.githubusercontent.com/112348240/201305009-5028250f-2d92-4a30-b8f0-8cd2961dcf34.png)
 
 ## Deliverable 2: Create a Customer Travel Destinations Map
 
+  For this deliverable, I wrote two input statements that prompt the user to enter their minimum and maximum temperature criteria for their vacation. Also,  Use a for loop to iterate through the hotel_df DataFrame, retrieve the latitude and longitude of each city to find the nearest hotel based on the search parameters provided, then add the hotel name to the hotel_df DataFrame. If a hotel isn't found, skip to the next city. Then, drop any rows in the hotel_df DataFrame where a hotel name is not found and store the resulting data into a new DataFrame named clean_hotel_df.
+
 ![image](https://user-images.githubusercontent.com/112348240/201306219-e6e844c7-9f85-4c38-8305-6b6414e33b89.png)
+
+***The screen shot below shows The marker layer map with a pop-up marker for each city***
 
 ![image](https://user-images.githubusercontent.com/112348240/201305981-ca9233ee-66b0-4008-b714-58b6abe0870a.png)
 
